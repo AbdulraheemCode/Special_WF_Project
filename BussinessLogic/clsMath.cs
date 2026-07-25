@@ -19,7 +19,10 @@ namespace BussinessLogic
             Console.WriteLine($"Your String : {str}"); 
         }
 
-
+        public static void ConactStrings(string str1 , string str2)
+        {
+            Console.WriteLine($"{str1} {str2}");
+        }
 
 
     }
