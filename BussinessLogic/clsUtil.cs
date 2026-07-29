@@ -14,6 +14,10 @@ namespace BussinessLogic
             Console.WriteLine("This is Func (1)");
         }
 
+        public static void Fun2()
+        {
+            Console.WriteLine("This is Func (2)");
+        }
 
 
 
