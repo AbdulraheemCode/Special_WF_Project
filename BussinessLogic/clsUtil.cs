@@ -20,6 +20,9 @@ namespace BussinessLogic
         }
 
 
-
+        public static void Fun3()
+        {
+            Console.WriteLine("This is Func (3)");
+        }
     }
 }
