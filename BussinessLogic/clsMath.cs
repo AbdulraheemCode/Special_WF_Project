@@ -11,7 +11,7 @@ namespace BussinessLogic
 
         public static double Add(double x , double y)
         {
-            return x + y;
+            return (x + y);
         }
 
         public static void PrintString(string str)
@@ -22,6 +22,11 @@ namespace BussinessLogic
         public static void ConactStrings(string str1 , string str2)
         {
             Console.WriteLine($"{str1} {str2}");
+        }
+
+        public static double Subtract(double x , double y)
+        {
+            return (x - y);
         }
 
 
